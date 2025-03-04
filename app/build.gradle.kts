@@ -77,6 +77,7 @@ dependencies {
     implementation(libs.navigation.compose)
     implementation(libs.hilt.compose.navigation)
 
+
     implementation(libs.kotlinx.serialization)
 
     implementation(libs.lifecycle.viewmodel)

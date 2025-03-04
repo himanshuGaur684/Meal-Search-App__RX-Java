@@ -1,4 +1,4 @@
-package dev.himanshu.inshorts.task.mealsearchapprxjava
+package dev.himanshu.inshorts.task.mealsearchapprxjava.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import dev.himanshu.inshorts.task.mealsearchapprxjava.ui.theme.MealSearchAppRXJavaTheme
+import dev.himanshu.inshorts.task.mealsearchapprxjava.view.ui.theme.MealSearchAppRXJavaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
