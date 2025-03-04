@@ -85,6 +85,4 @@ dependencies {
     // coil image loading
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
-
-    implementation("com.google.accompanist:accompanist-pager-indicators:0.36.0")
 }
