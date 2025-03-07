@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.dagger)
     alias(libs.plugins.kotlinx.serialization)
     id("kotlin-parcelize")
     kotlin("kapt")
@@ -61,12 +60,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    // optional - RxJava3 support for Room
-    implementation(libs.androidx.room.rxjava3)
-    kapt(libs.androidx.room.compiler)
 
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.compiler) // Use ksp instead of kapt for Hilt
 
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
@@ -85,7 +79,4 @@ dependencies {
     // coil image loading
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
-
-    implementation(libs.dagger.hilt)
-    kapt(libs.dagger.kapt)
- }
+}
