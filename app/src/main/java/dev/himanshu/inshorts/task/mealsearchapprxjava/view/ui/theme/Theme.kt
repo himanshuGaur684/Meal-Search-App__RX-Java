@@ -1,4 +1,4 @@
-package dev.himanshu.inshorts.task.mealsearchapprxjava.ui.theme
+package dev.himanshu.inshorts.task.mealsearchapprxjava.view.ui.theme
 
 import android.app.Activity
 import android.os.Build
