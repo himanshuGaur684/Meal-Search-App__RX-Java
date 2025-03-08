@@ -40,8 +40,7 @@ GET https://www.themealdb.com/api/json/v1/1/search.php?s={meal_name}
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/himanshuGaur684/meal-search-rxjava.git
-   cd meal-search-rxjava
+   git clone https://github.com/himanshuGaur684/Meal-Search-App__RX-Java.git
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle and Run the app.
