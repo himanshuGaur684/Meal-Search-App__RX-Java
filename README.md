@@ -36,6 +36,15 @@ GET https://www.themealdb.com/api/json/v1/1/search.php?s={meal_name}
 5. **Filter** ensures valid queries are sent to the API.
 6. **Schedulers** manage background operations and UI updates efficiently.
 
+## How It Works
+
+1. User types in the search field.
+2. **PublishSubject captures text changes in real time**.
+3. **Debounce ensures API calls are made only after the user stops typing for a short duration**.
+4. **DistinctUntilChanged prevents duplicate API calls for the same query**.
+5. **Filter ensures only valid queries are sent to the API**.
+6. **RxJava Schedulers handle background operations and UI updates efficiently**.
+
 ## Installation
 
 1. Clone this repository:
@@ -44,6 +53,8 @@ GET https://www.themealdb.com/api/json/v1/1/search.php?s={meal_name}
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle and Run the app.
+
+
 
 ## Dependencies
 
